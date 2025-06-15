@@ -12,3 +12,10 @@ for (let i=1; i<=n; i++){
 console.log("sum =",sum);
 
 console.log("start the loop");
+
+let obj={
+      Fname:"srj",
+      age:"20",
+      city:"delhi",
+} 
+console.log("object is",obj);
