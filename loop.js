@@ -1,7 +1,7 @@
-for (let count =1; count<=5;count++){
-     console.log("anime is love");
+// for (let count =1; count<=5;count++){
+//      console.log("anime is love");
 
-}
+// }
 console.log("loop is ended");
 
 let sum=0;
@@ -19,3 +19,9 @@ let obj={
       city:"delhi",
 } 
 console.log("object is",obj);
+
+for(let count= 1; count<= 100; count++){
+
+     console.log("heloo i am doing this again")
+}
+
