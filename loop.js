@@ -39,4 +39,10 @@ do{
      j++;
 }while(j<=8);
 
+let str= "suraj";
+
+for(let i of str ){
+     console.log("i=",i);
+}
+
 
