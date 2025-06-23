@@ -2,7 +2,7 @@
 //      console.log("anime is love");
 
 // }
-console.log("loop is ended");
+// console.log("loop is ended");
 
 let sum=0;
 let n= 5;
@@ -24,4 +24,19 @@ for(let count= 1; count<= 100; count++){
 
      console.log("heloo i am doing this again")
 }
+for(let j=1; j<=5; j++){
+      console.log("j=",j);
+}
+
+let j=1;
+while(j<=5){
+     console.log("j=",j)
+     j++;
+}
+
+do{
+     console.log("j=",j);
+     j++;
+}while(j<=8);
+
 
