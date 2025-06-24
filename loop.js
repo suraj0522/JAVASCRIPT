@@ -45,4 +45,24 @@ for(let i of str ){
      console.log("i=",i);
 }
 
+let student = {
+      name: "suraj",
+      age: 19,
+      cgpa: 7.5,
+      ispass:  true,
 
+};
+
+
+
+for(let key in student){
+     console.log((key), "=", student[key]);
+}
+
+for( let numb=0; numb<=100; numb++){
+
+
+     if(numb%2==0){
+           console.log("numb",numb);
+     }
+}
