@@ -66,3 +66,11 @@ for( let numb=0; numb<=100; numb++){
            console.log("numb",numb);
      }
 }
+
+let gamenum=25;
+let usernum= prompt("enter the number between 1 to 50");
+while(usernum != gamenum){
+  usernum = prompt("you entered wrong number, try again");
+
+}
+console.log("you entered the correct number", usernum);
