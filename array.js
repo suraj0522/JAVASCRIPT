@@ -15,4 +15,14 @@ let cities = ["delhi","mumbai","pune","ranchi"];
 
 for(let city of cities){
      console.log(city.toUpperCase());
+
 }
+
+let numbers = [45,78,45,85,69];
+
+let sum = 0;
+for(let num of numbers){
+    sum += num;
+}
+let avg = sum / numbers.length;
+console.log(`avg marks of = ${avg}`);
