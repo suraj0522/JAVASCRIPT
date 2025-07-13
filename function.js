@@ -52,4 +52,4 @@ function countvowels(str) {
 
   console.log(count);
 }
-countvowels("suraj");
+countvowels("hey there i am telling you to stop");
