@@ -53,3 +53,15 @@ function countvowels(str) {
   console.log(count);
 }
 countvowels("hey there i am telling you to stop");
+
+let arr = [1, 2, 3, 4, 5];
+
+arr.forEach((val) => {
+  console.log(val);
+});
+
+let square= [2,4,5,6,7,8,9];
+
+square.forEach((square)=>{
+  console.log(square * square );
+}); 
