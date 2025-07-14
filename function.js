@@ -70,3 +70,4 @@ let calcsquare = (num) => {
   console.log(num * num);
 };
 square.forEach(calcsquare); //its also the same mathoed
+hhgu
