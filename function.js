@@ -60,8 +60,13 @@ arr.forEach((val) => {
   console.log(val);
 });
 
-let square= [2,4,5,6,7,8,9];
+let square= [2,4,5,6,104,78,136];
 
-square.forEach((square)=>{
-  console.log(square * square );
-}); 
+// square.forEach((square)=>{
+//   console.log(square * square );
+// }); 
+ 
+let calcsquare = (num) => {
+  console.log(num * num);
+};
+square.forEach(calcsquare); //its also the same mathoed
