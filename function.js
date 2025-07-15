@@ -78,3 +78,13 @@ let evenarr = arr22.filter((val) => {
 });
 
 console.log(evenarr);
+
+let aruu = [1,2,3,4,5];
+
+const output = arr.reduce((res,curr) => {
+
+ return res + curr;
+
+})
+
+console.log(output)
