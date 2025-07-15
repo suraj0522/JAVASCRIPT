@@ -70,4 +70,11 @@ let calcsquare = (num) => {
   console.log(num * num);
 };
 square.forEach(calcsquare); //its also the same mathoed
-hhgu
+
+let arr22 = [1, 2, 3, 4, 5,6,7,8,9,10,11,12,13,14,15];
+
+let evenarr = arr22.filter((val) => {
+    return val % 2 === 0;
+});
+
+console.log(evenarr);
