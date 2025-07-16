@@ -88,3 +88,32 @@ const output = arr.reduce((res,curr) => {
 })
 
 console.log(output)
+
+let marks = [97,56,95,45,78,91];
+
+ let pass =marks.filter((val)=>{
+  return val > 90;  
+});
+
+console.log(pass);
+
+let n =prompt("Enter a number :");
+
+let arr3 =[];
+
+for (let i =1; i<=n ; i++){
+    arr3[i-1] =i;
+}
+console.log(arr3);
+
+let summ = arr3.reduce((res, curr) =>{
+  return res + curr;
+});
+console.log(summ);
+
+let mul = arr3.reduce((res, curr) =>{
+  return res * curr;
+});
+
+console.log(mul);
+
