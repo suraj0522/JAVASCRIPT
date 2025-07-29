@@ -9,3 +9,9 @@ console.dir(heading);
 let heading12 =document.getElementsByClassName("heading2");
 console.dir(heading12);
 console.log(heading12);
+
+let para = document.getElementsByTagName("p");
+console.dir(para);
+console.log(para);
+
+
