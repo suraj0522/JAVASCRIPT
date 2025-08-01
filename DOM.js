@@ -14,4 +14,9 @@ let para = document.getElementsByTagName("p");
 console.dir(para);
 console.log(para);
 
+let firstel = document.querySelector("p");
+console.dir(firstel);
+
+let secondel = document.querySelectorAll("p");
+console.dir(secondel);
 
