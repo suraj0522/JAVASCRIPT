@@ -20,3 +20,6 @@ console.dir(firstel);
 let secondel = document.querySelectorAll("p");
 console.dir(secondel);
 
+console.dir(document.body.firstChild);
+
+console.log(document.querySelector("div").children);
