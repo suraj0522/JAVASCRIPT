@@ -11,6 +11,13 @@ console.log(newbtn);
 let div = document.querySelector("div");
 div.prepend(newbtn);
 
+let heading = document.createElement("h1");
+heading.innerText = "Hi i am new!";
+console.log(heading);
+
+let body = document.querySelector("body");
+body.prepend(heading);
+
 
 
 
