@@ -27,6 +27,9 @@ newbutton.style.color = "white";
 
 document.querySelector("body").prepend(newbutton);
 
+let para=document.querySelector("p");
+
+
 
 
 

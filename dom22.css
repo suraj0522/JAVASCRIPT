@@ -9,3 +9,14 @@
     align-items: center;
      
 }
+
+.content {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.newcon{
+     background-color: rgb(0, 255, 225);
+     
+}
