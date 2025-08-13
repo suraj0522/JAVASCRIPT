@@ -19,9 +19,25 @@ let btn1 =document.querySelector('#btn1');
 //        console.log(evt.target);
 //    }
 
-   btn2.addEventListener("click", (evt) => {
-      console.log("button was clicked");
-      console.log(evt);
-    console.log(evt.type);
+   // btn2.addEventListener("click", (evt) => {
+   //    console.log("button was clicked");
+   //    console.log(evt);
+   //  console.log(evt.type);
 
+   // });
+
+   let modebtn = document.querySelector("#mode");
+   let currMode="light";
+
+   modebtn.addEventListener("click", () => {
+       if (currMode === "light") {
+          currMOde ="dark";
+
+       }else {
+          currMode = "light";
+       }
+      console.log(currMode);
    });
+
+
+  
