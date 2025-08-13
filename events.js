@@ -11,3 +11,10 @@ let btn1 =document.querySelector('#btn1');
     div.onmouseover = () => {
     console.log('Mouse is over the div');
     }
+
+let btn2 = document.querySelector('#btn2');
+   btn2.onclick = (evt) => {
+      console.log(evt);
+       console.log(evt.type);
+       console.log(evt.target);
+   }
