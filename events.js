@@ -12,9 +12,16 @@ let btn1 =document.querySelector('#btn1');
     console.log('Mouse is over the div');
     }
 
-let btn2 = document.querySelector('#btn2');
-   btn2.onclick = (evt) => {
+// let btn2 = document.querySelector('#btn2');
+//    btn2.onclick = (evt) => {
+//       console.log(evt);
+//        console.log(evt.type);
+//        console.log(evt.target);
+//    }
+
+   btn2.addEventListener("click", (evt) => {
+      console.log("button was clicked");
       console.log(evt);
-       console.log(evt.type);
-       console.log(evt.target);
-   }
+    console.log(evt.type);
+
+   });
