@@ -1,16 +1,16 @@
-let btn1 =document.querySelector('#btn1');
+// let btn1 =document.querySelector('#btn1');
 
- btn1.onclick = () => {
-    console.log('Button 1 clicked');
-    let a = 25;
-    a++;
-    console.log(a);
- }
+//  btn1.onclick = () => {
+//     console.log('Button 1 clicked');
+//     let a = 25;
+//     a++;
+//     console.log(a);
+//  }
   
- let div = document.querySelector('div');
-    div.onmouseover = () => {
-    console.log('Mouse is over the div');
-    }
+//  let div = document.querySelector('div');
+//     div.onmouseover = () => {
+//     console.log('Mouse is over the div');
+//     }
 
 // let btn2 = document.querySelector('#btn2');
 //    btn2.onclick = (evt) => {
@@ -26,15 +26,22 @@ let btn1 =document.querySelector('#btn1');
 
    // });
 
+
+
    let modebtn = document.querySelector("#mode");
-   let currMode="light";
+   let body = document.querySelector("body");
+   let currMode="light"; //dark
 
    modebtn.addEventListener("click", () => {
        if (currMode === "light") {
-          currMOde ="dark";
+          currMode = "dark";
+        body.classList.add("dark");
+         body.classList.remove("light");
 
-       }else {
+       } else {
           currMode = "light";
+            body.classList.add("light");
+         body.classList.remove("dark");
        }
       console.log(currMode);
    });
